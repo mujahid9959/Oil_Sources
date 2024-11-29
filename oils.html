@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oil Categories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            margin: 0;
+            background-image: url('https://images7.alphacoders.com/938/thumb-1920-938847.jpg');
+            /* Replace with your image path */
+            background-size: cover;
+            /* Ensures the image covers the entire body */
+            background-position: center;
+            /* Centers the image */
+            background-repeat: no-repeat;
+            /* Prevents the image from repeating */
+        }
+
+        table {
+            width: 40%;
+            margin-top: 0;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+            background-color: rgba(168, 127, 201, 0.822);
+            /* Adjust the last value for transparency */
+            box-shadow: 0 4px 8px rgba(50, 17, 85, 0.8);
+            /* Adds a subtle shadow */
+            color: black;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #444;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgba(219, 190, 200, 0.4);
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: maroon;
+            text-shadow: 2px 2px 5px rgba(240, 31, 101, 0.6);
+            /* Adds a shadow */
+            font-weight: bold;
+            /* Make text bold */
+            transform: scale(9.05);
+            /* Slightly enlarge text */
+            transition: color 0.3s ease, transform 0.3s ease;
+            /* Smooth transition */
+        }
+
+        /* Carousel Container */
+        .carousel {
+            width: 40%;
+            max-width: 100%;
+            margin-bottom: 0;
+            margin-top: 1px;
+            overflow: hidden;
+            border-radius: 8px;
+            position: relative;
+            box-shadow: 0px 4px 10px rgba(14, 2, 2, 0.541);
+            /* Add shadow */
+        }
+
+        /* Slide Wrapper */
+        .carousel-wrapper {
+            display: flex;
+            width: 100%;
+            animation: slide-animation 60s infinite;
+        }
+
+        /* Each Slide */
+        .carousel-slide {
+            width: 100%;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 1s ease;
+            position: relative;
+        }
+
+        /* Slide Image */
+        .carousel-slide img {
+            width: 100%;
+            height: 170px;
+            display: block;
+        }
+
+        @keyframes slide-animation {
+            0% {
+                transform: translateX(0%);
+            }
+
+            5.88% {
+                transform: translateX(0%);
+            }
+
+            11.76% {
+                transform: translateX(-100%);
+            }
+
+            17.64% {
+                transform: translateX(-200%);
+            }
+
+            23.52% {
+                transform: translateX(-300%);
+            }
+
+            29.4% {
+                transform: translateX(-400%);
+            }
+
+            35.28% {
+                transform: translateX(-500%);
+            }
+
+            41.16% {
+                transform: translateX(-600%);
+            }
+
+            47.04% {
+                transform: translateX(-700%);
+            }
+
+            52.92% {
+                transform: translateX(-800%);
+            }
+
+            58.8% {
+                transform: translateX(-900%);
+            }
+
+            64.68% {
+                transform: translateX(-1000%);
+            }
+
+            70.56% {
+                transform: translateX(-1100%);
+            }
+
+            76.44% {
+                transform: translateX(-1200%);
+            }
+
+            82.32% {
+                transform: translateX(-1300%);
+            }
+
+            88.2% {
+                transform: translateX(-1400%);
+            }
+
+            94.08% {
+                transform: translateX(-1500%);
+            }
+
+            100% {
+                transform: translateX(-1600%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="carousel">
+        <div class="carousel-wrapper">
+            <!-- Slide 1 -->
+            <div class="carousel-slide">
+                <img src="https://nationaleczema.org/wp-content/uploads/2022/04/almond-oil.jpg" alt="Slide 1">
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-slide">
+                <img src="https://www.shutterstock.com/shutterstock/videos/1081642325/thumb/1.jpg?ip=x480"
+                    alt="Slide 2">
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-slide">
+                <img src="https://www.shutterstock.com/shutterstock/videos/1075730147/thumb/1.jpg?ip=x480"
+                    alt="Slide 3">
+            </div>
+            <!-- Slide 4 -->
+            <div class="carousel-slide">
+                <img src="https://media.istockphoto.com/id/182009340/photo/garpe-seed.jpg?s=612x612&w=0&k=20&c=l6frkk2Aix_VQ8aAbI5jUnSXs7e4mTmRm8opAZyNnVc="
+                    alt="Slide 4">
+            </div>
+            <!-- Slide 5 -->
+            <div class="carousel-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSYHHGmT7ikC9eB25LEYfCdEqdSZrfhik2-A&s"
+                    alt="Slide 5">
+            </div>
+            <!-- Slide 6 -->
+            <div class="carousel-slide">
+                <img src="https://www.shutterstock.com/shutterstock/videos/1089183117/thumb/1.jpg?ip=x480"
+                    alt="Slide 6">
+            </div>
+            <!-- Slide 7 -->
+            <div class="carousel-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfw-bHu2n0A-aXRaZTSI7XNgVe8zL7mEOQKw&s"
+                    alt="Slide 7">
+            </div>
+            <!-- Slide 8 -->
+            <div class="carousel-slide">
+                <img src="https://t3.ftcdn.net/jpg/07/07/14/28/360_F_707142812_8H9Er7OV2KhTbbHK2vuTstrhEQuUMS6k.jpg"
+                    alt="Slide 8">
+            </div>
+            <!-- Slide 9 -->
+            <div class="carousel-slide">
+                <img src="https://media.istockphoto.com/id/489660706/photo/oil-palm-fruits-with-cooking-oil.jpg?s=612x612&w=0&k=20&c=Ne89ERUkw_oUzvdaQ-6QlvzyrD_WaWfMW-wsGuIkAEg="
+                    alt="Slide 9">
+            </div>
+            <!-- Slide 10 -->
+            <div class="carousel-slide">
+                <img src="https://www.shutterstock.com/shutterstock/videos/3469662089/thumb/1.jpg?ip=x480"
+                    alt="Slide 10">
+            </div>
+            <!-- Slide 11 -->
+            <div class="carousel-slide">
+                <img src="https://t3.ftcdn.net/jpg/02/66/84/52/360_F_266845268_U4OI9OR2geuRiMFZdjQnqdh85KVtYpit.jpg"
+                    alt="Slide 11">
+            </div>
+            <!-- Slide 12 -->
+            <div class="carousel-slide">
+                <img src="https://www.shutterstock.com/shutterstock/videos/1079309672/thumb/1.jpg?ip=x480"
+                    alt="Slide 12">
+            </div>
+            <!-- Slide 13 -->
+            <div class="carousel-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzIQeEjntexUQjGdCv9M_KGl2sjAKoMBAtnQ&s"
+                    alt="Slide 13">
+            </div>
+            <!-- Slide 14 -->
+            <div class="carousel-slide">
+                <img src="https://c4.wallpaperflare.com/wallpaper/354/110/440/olives-oil-honey-food-wallpaper-preview.jpg"
+                    alt="Slide 14">
+            </div>
+            <!-- Slide 15 -->
+            <div class="carousel-slide">
+                <img src="https://media.gettyimages.com/id/581754811/video/peanuts-arachis-hypogaea-fruits-falling-against-white-background-slow-motion.jpg?s=640x640&k=20&c=4PHHJLwdngPa4AGXgVW0AErhE0gbG7meKitwBqje8FU="
+                    alt="Slide 15">
+            </div>
+            <!-- Slide 16 -->
+            <div class="carousel-slide">
+                <img src="https://www.shutterstock.com/shutterstock/videos/1107389209/thumb/1.jpg?ip=x480"
+                    alt="Slide 16">
+            </div>
+            <!-- Slide 17 -->
+            <div class="carousel-slide">
+                <img src="https://www.shutterstock.com/shutterstock/videos/3558602725/thumb/1.jpg?ip=x480"
+                    alt="Slide 17">
+            </div>
+        </div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Oil Type</th>
+                <th>Source Of Oil</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3"><b>Healthy Focused Oil</b></td>
+                <td><a href="almonds.html">Almonds</a></td>
+            </tr>
+            <tr>
+                <td><a href="walnuts.html">Walnuts</a></td>
+            </tr>
+            <tr>
+                <td><a href="ricebran.html">Ricebran</a></td>
+            </tr>
+
+            <tr>
+                <td rowspan="3"><b>Specialty Oil</b></td>
+                <td><a href="grapeseed.html">Grape seeds</a></td>
+            </tr>
+            <tr>
+                <td><a href="hempseed.html">Hemp seeds</a></td>
+            </tr>
+            <tr>
+                <td><a href="pumpkinseed.html">Pumpkin seeds</a></td>
+            </tr>
+
+            <tr>
+                <td rowspan="3"><b>Fruit Based Oil</b></td>
+                <td><a href="coconut.html">Coconut</a></td>
+            </tr>
+            <tr>
+                <td><a href="avacado.html">Avocado</a></td>
+            </tr>
+            <tr>
+                <td><a href="palm.html">Palm</a></td>
+            </tr>
+
+            <tr>
+                <td rowspan="8"><b>Nuts & Seed Based Oil</b></td>
+                <td><a href="soyabean.html">Soyabean</a></td>
+            </tr>
+            <tr>
+                <td><a href="canola.html">Canola</a></td>
+            </tr>
+            <tr>
+                <td><a href="corn.html">Corn</a></td>
+            </tr>
+            <tr>
+                <td><a href="sunflower.html">Sunflower seeds</a></td>
+            </tr>
+            <tr>
+                <td><a href="olive.html">Olives</a></td>
+            </tr>
+            <tr>
+                <td><a href="peanut.html">Peanuts</a></td>
+            </tr>
+            <tr>
+                <td><a href="sesame.html">Sesame seeds</a></td>
+            </tr>
+            <tr>
+                <td><a href="flaxseed.html">Flax seeds</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
